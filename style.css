@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe2d1;
+    color: #ffe2d1;
+    font-family: Arial, sans-serif;
+    border-bottom: 2rem;
+}
+
+
+.header {
+    background-color: #24160a;
+    padding: 5;
+    text-align: center;
+    border-bottom: 30px solid #1d0f07;
+    border-top: 30px solid #24160a;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;  
+    gap: 20px;               
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.box {
+    background-color: #24160a;
+    padding: 20px;
+    border: 1px solid #24160a;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
